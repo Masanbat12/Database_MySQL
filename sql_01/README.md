@@ -50,3 +50,9 @@ Renamed the price column to journey_price and changed its data type to INT(7).
 Table Data Deletion:
 
 Deleted all data from the flights table.
+
+### Exp:
+These operations demonstrate basic CRUD (Create, Read, Update, Delete) functionality in MySQL.
+Ensure to select the appropriate database before performing these operations.
+Handle data types and column constraints with care to avoid data inconsistency.
+Regularly backup your database to prevent data loss.
