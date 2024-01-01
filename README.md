@@ -3,3 +3,4 @@
 In every file above you will have a README.md file that explains the contents.
 
 - [sql_01 📂 ](https://github.com/Masanbat12/Database_MySQL/tree/main/sql_01)
+- [sql_02 📂 ](https://github.com/Masanbat12/Database_MySQL/tree/main/sql_02)
