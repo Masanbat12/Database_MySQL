@@ -1,4 +1,4 @@
-# sql_01, Here we have 2 queries: Sub and Flights.
+# sql_02, Here we have 2 queries: customers and emp.
 ### After creating an database. The database consists of 2 tables named customers and emp.
 ## - query 1:
 ### Table: customers
