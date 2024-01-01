@@ -1,5 +1,5 @@
-# sql_02, Here we have 2 queries: customers and emp.
-### After creating an database. The database consists of 2 tables named customers and emp.
+# sql_02, Here we have 2 queries: customers and emp. and table creation.
+### After creating an database. The database consists of 2 tables named customers and emp, and virtualclinic tables 
 ## - query 1:
 ### Table: customers
 cid (int): Customer ID, primary key.
@@ -78,3 +78,30 @@ Updates the salary to 25% of the current salary for employees earning less than 
 Employee Names and Salaries Post Update:
 
 Lists the names and updated salaries of all employees.
+
+## The database virtualclinic consists of the following tables:
+
+### Table: speciality
+name (VARCHAR(50)): The name of the medical specialty.
+description (VARCHAR(100)): A brief description of the specialty.
+
+### Table: symptom
+name (VARCHAR(50)): The name of the symptom.
+description (VARCHAR(100)): A brief description of the symptom.
+
+### Table: location
+city (VARCHAR(50)): The city where the clinic or doctor is located.
+zip (VARCHAR(50)): The ZIP/postal code for the location.
+state (VARCHAR(50)): The state where the clinic or doctor is located.
+country (VARCHAR(50)): The country where the clinic or doctor is located, defaulting to "Israel".
+address (VARCHAR(50)): The street address of the clinic or doctor.
+
+### Table: doctors
+id (INT): A unique identifier for each doctor, set as the primary key.
+name (VARCHAR(50)): The name of the doctor.
+speciality_name (VARCHAR(50)): The name of the doctor's specialty, correlating with the speciality table.
+location_city (VARCHAR(50)): The city where the doctor practices, relating to the location table.
+experience_years (INT): The number of years the doctor has been practicing.
+
+## Usage
+The tables in the virtualclinic database are designed to work together to provide a comprehensive overview of the clinic's operations. The speciality and symptom tables can be used to categorize and detail various medical areas and symptoms. The location table is crucial for geographical data, while the doctors table links medical professionals to their respective specialties and locations.
