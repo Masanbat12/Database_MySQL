@@ -49,7 +49,7 @@ INSERT INTO Works VALUES
     
 INSERT INTO Manages VALUES
     ("Shon", "Nitay"),
-	("Nitay", "Michal"),
+    ("Nitay", "Michal"),
     ("Shon", "Lior");
     
 SELECT Employee.Ename, Street, City FROM Employee, Works 
