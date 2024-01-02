@@ -25,4 +25,4 @@ Companies in the same city as a specific company, excluding that company.
 Employees earning more than the average salary in their company.
 Companies with the minimum total payroll.
 
-## The execution of the table creation scripts in the terminal you can see also in here: []()
+## The execution of the table creation scripts in the terminal you can see also in here: [exec_pics_📂 ](https://github.com/Masanbat12/Database_MySQL/tree/main/sql_03/sql_03_exc_pics)
